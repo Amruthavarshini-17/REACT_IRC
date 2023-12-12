@@ -1,0 +1,13 @@
+3.  Write a javascript  modules that contains a function to calculate the area of rectangle ?
+Soln:
+Module: rectangle.js
+export function calculateRectangleArea(length, width) {
+    return length * width;}
+import { calculateRectangleArea } from './rectangle.js';
+const length = 10;
+const width = 5;
+const area = calculateRectangleArea(length, width);
+console.log(`The area of the rectangle is: ${area}`);
+
+output:
+The area of the rectangle is: 50

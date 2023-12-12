@@ -1,0 +1,13 @@
+4.Write a javaScript function that checks if a given email address is specific domain?
+Soln:
+function isEmailFromDomain(email, domain) {
+        const extractedDomain = email.split('@')[1];
+“ Check if the extracted domain matches the specified domain”
+    return extractedDomain === domain;}
+const email1 = "user@example.com";
+const email2 = "anotheruser@gmail.com";
+console.log(isEmailFromDomain(email2, "gmail.com"));   
+ Output: true
+console.log(isEmailFromDomain(email2, "yahoo.com")); 
+  Output: false
+In the above code,isEmailFromDomain function takes an emailaddress and extracts the domain using split and checks if it matches the specific domain and display the result.

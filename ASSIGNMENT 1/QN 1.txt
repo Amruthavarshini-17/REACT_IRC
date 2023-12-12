@@ -1,0 +1,25 @@
+1.Write a function askQuestion and display the cancellation?
+Soln:
+  // Function that asks a question and provides an answer
+function askQuestion(question) {
+    // Ask the question
+    var userAnswer = prompt(question);
+    // Check the user's answer
+    if (userAnswer !== null) {
+        if (userAnswer.toLowerCase() === "paris") {
+            // Correct answer
+            alert("Correct! Paris is the correct answer.");
+        } else {
+            // Incorrect answer
+            alert("Wrong answer. The correct answer is Paris.");
+        }} else {
+        // Handle the case where the user clicks Cancel
+        alert("You cancelled the question.");
+    }}
+// Call the function with a specific question
+askQuestion("What is the capital of France?");
+
+
+Output:
+           The correct answer is Paris.
+

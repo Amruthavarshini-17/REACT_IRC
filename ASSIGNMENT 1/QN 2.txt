@@ -1,0 +1,32 @@
+2.Write a javascript for loops to identify and display the capital planet and animal.
+Soln:
+// Function to ask questions and provide feedback
+function askQuestions() {
+    // Loop through each question in the array
+    for (var i = 0; i < questions.length; i++) {
+        // Ask the current question
+        var userAnswer = prompt(questions[i].question);
+        // Check the user's answer
+        if (userAnswer !== null) {
+            if (userAnswer.toLowerCase() === questions[i].answer.toLowerCase()) {
+                // Correct answer
+                alert("Correct! That's the right answer.");
+            } else {
+                // Incorrect answer
+                alert("Wrong answer. The correct answer is: " + questions[i].answer);
+            }
+        } else {
+            // Handle the case where the user clicks Cancel
+            alert("You cancelled the quiz.");
+            break; // Exit the loop if the user cancels
+        }  }
+
+    // Alert to indicate the end of the quiz
+    alert("End of the quiz. Thanks for playing!");
+}
+
+// Call the function to start the quiz
+askQuestions();
+
+Output:
+The correct answer is “Paris”,”Mars”,”Blue whale”.
