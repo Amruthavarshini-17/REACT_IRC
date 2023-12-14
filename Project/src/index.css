@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  .p1 {
+    font-family: "Brush Script MT", Times, serif;
+  }
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  background-image: url("C:\Users\AMRUTHAVARSHINI M\Desktop\LOGIN-SIGNUP\login-signup\src\components\assets\toystore bg.jpeg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
