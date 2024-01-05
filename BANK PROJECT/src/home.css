@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+h2,h4{
+    font-family: 'Comfortaa', cursive;
+    color: #142b47;
+    font-weight: bold;
+}
+.marquee-container {
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+}
+body {
+  background-image: url("C:\Users\AMRUTHAVARSHINI M\Downloads\Bad-Bank-Using-Only-ReactJs-master\Bad-Bank-Using-Only-ReactJs-master\src\images\bankback.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.marquee {
+  animation: marquee 30s linear infinite;
+  white-space: nowrap;
+}
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  
